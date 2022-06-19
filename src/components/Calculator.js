@@ -71,7 +71,7 @@ const Calculator = () => {
 	};
 	return (
 		<div className="container m-auto">
-			<div className="relative flex-grow w-full mt-5">
+			<div className="relative flex-grow w-full mt-5 px-5">
 				<label
 					htmlFor="pid"
 					className="leading-7 text-lg font-bold text-gray-600">
@@ -91,7 +91,7 @@ const Calculator = () => {
 			</div>
 			<button
 				onClick={handleClick}
-				className="mt-3 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-md">
+				className="mt-3 text-white mx-5 bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-md">
 				Get Total Time
 			</button>
 
